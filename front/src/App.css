@@ -1,0 +1,64 @@
+/* --- Container --- */
+.container {
+  background: #ffffff;   /* white card background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 900px;
+}
+
+/* --- Table --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th {
+  background-color: #3b82f6; /* blue header */
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+}
+
+td {
+  padding: 10px 12px;
+  color: #1f2937;
+  background-color: #e0f2fe; /* light blue rows */
+}
+
+tr:nth-child(even) td {
+  background-color: #bae6fd; /* alternating row color */
+}
+
+tr:hover td {
+  background-color: #93c5fd; /* highlight row on hover */
+}
+
+/* --- Form inputs --- */
+input[type="text"],
+input[type="number"],
+select {
+  padding: 8px 12px;
+  margin: 4px;
+  border: 1px solid #d1d5db; /* soft gray border */
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #9ca3af; /* placeholder gray */
+}
+
+/* --- Checkbox --- */
+label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #1f2937;
+}
